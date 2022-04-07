@@ -29,7 +29,7 @@ assert_eq!(a.descendants().map(|node| node.data.borrow().clone()).collect::<Vec<
 
 */
 
-#![feature(move_cell)]
+// #![feature(move_cell)]
 
 use std::cell::Cell;
 
